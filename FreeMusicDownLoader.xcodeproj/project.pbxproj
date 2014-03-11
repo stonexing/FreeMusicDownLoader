@@ -22,6 +22,13 @@
 		E30666F718CEBA3300F9CA6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30666D618CEBA3300F9CA6A /* UIKit.framework */; };
 		E30666FF18CEBA3300F9CA6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E30666FD18CEBA3300F9CA6A /* InfoPlist.strings */; };
 		E306670118CEBA3300F9CA6A /* FreeMusicDownLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E306670018CEBA3300F9CA6A /* FreeMusicDownLoaderTests.m */; };
+		E306671518CEBB7100F9CA6A /* PBSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E306670D18CEBB7100F9CA6A /* PBSafariActivity.m */; };
+		E306671618CEBB7100F9CA6A /* Safari@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E306670E18CEBB7100F9CA6A /* Safari@2x~ipad.png */; };
+		E306671718CEBB7100F9CA6A /* Safari@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E306670F18CEBB7100F9CA6A /* Safari@2x~iphone.png */; };
+		E306671818CEBB7100F9CA6A /* Safari~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E306671018CEBB7100F9CA6A /* Safari~ipad.png */; };
+		E306671918CEBB7100F9CA6A /* Safari~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E306671118CEBB7100F9CA6A /* Safari~iphone.png */; };
+		E306671A18CEBB7100F9CA6A /* PBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E306671418CEBB7100F9CA6A /* PBWebViewController.m */; };
+		E306671C18CEC11900F9CA6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E306671B18CEC11900F9CA6A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,15 @@
 		E30666FC18CEBA3300F9CA6A /* FreeMusicDownLoaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeMusicDownLoaderTests-Info.plist"; sourceTree = "<group>"; };
 		E30666FE18CEBA3300F9CA6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E306670018CEBA3300F9CA6A /* FreeMusicDownLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeMusicDownLoaderTests.m; sourceTree = "<group>"; };
+		E306670C18CEBB7100F9CA6A /* PBSafariActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSafariActivity.h; sourceTree = "<group>"; };
+		E306670D18CEBB7100F9CA6A /* PBSafariActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSafariActivity.m; sourceTree = "<group>"; };
+		E306670E18CEBB7100F9CA6A /* Safari@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari@2x~ipad.png"; sourceTree = "<group>"; };
+		E306670F18CEBB7100F9CA6A /* Safari@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari@2x~iphone.png"; sourceTree = "<group>"; };
+		E306671018CEBB7100F9CA6A /* Safari~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari~ipad.png"; sourceTree = "<group>"; };
+		E306671118CEBB7100F9CA6A /* Safari~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari~iphone.png"; sourceTree = "<group>"; };
+		E306671318CEBB7100F9CA6A /* PBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebViewController.h; sourceTree = "<group>"; };
+		E306671418CEBB7100F9CA6A /* PBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebViewController.m; sourceTree = "<group>"; };
+		E306671B18CEC11900F9CA6A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +130,7 @@
 		E30666D818CEBA3300F9CA6A /* FreeMusicDownLoader */ = {
 			isa = PBXGroup;
 			children = (
+				E306670A18CEBB7100F9CA6A /* web */,
 				E30666E118CEBA3300F9CA6A /* AppDelegate.h */,
 				E30666E218CEBA3300F9CA6A /* AppDelegate.m */,
 				E30666E418CEBA3300F9CA6A /* Main_iPhone.storyboard */,
@@ -129,6 +146,7 @@
 		E30666D918CEBA3300F9CA6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E306671B18CEC11900F9CA6A /* README.md */,
 				E30666DA18CEBA3300F9CA6A /* FreeMusicDownLoader-Info.plist */,
 				E30666DB18CEBA3300F9CA6A /* InfoPlist.strings */,
 				E30666DE18CEBA3300F9CA6A /* main.m */,
@@ -153,6 +171,37 @@
 				E30666FD18CEBA3300F9CA6A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E306670A18CEBB7100F9CA6A /* web */ = {
+			isa = PBXGroup;
+			children = (
+				E306670B18CEBB7100F9CA6A /* PBSafariActivity */,
+				E306671218CEBB7100F9CA6A /* PBWebViewController */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		E306670B18CEBB7100F9CA6A /* PBSafariActivity */ = {
+			isa = PBXGroup;
+			children = (
+				E306670C18CEBB7100F9CA6A /* PBSafariActivity.h */,
+				E306670D18CEBB7100F9CA6A /* PBSafariActivity.m */,
+				E306670E18CEBB7100F9CA6A /* Safari@2x~ipad.png */,
+				E306670F18CEBB7100F9CA6A /* Safari@2x~iphone.png */,
+				E306671018CEBB7100F9CA6A /* Safari~ipad.png */,
+				E306671118CEBB7100F9CA6A /* Safari~iphone.png */,
+			);
+			path = PBSafariActivity;
+			sourceTree = "<group>";
+		};
+		E306671218CEBB7100F9CA6A /* PBWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E306671318CEBB7100F9CA6A /* PBWebViewController.h */,
+				E306671418CEBB7100F9CA6A /* PBWebViewController.m */,
+			);
+			path = PBWebViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +280,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E306671618CEBB7100F9CA6A /* Safari@2x~ipad.png in Resources */,
 				E30666E918CEBA3300F9CA6A /* Main_iPad.storyboard in Resources */,
+				E306671718CEBB7100F9CA6A /* Safari@2x~iphone.png in Resources */,
+				E306671918CEBB7100F9CA6A /* Safari~iphone.png in Resources */,
 				E30666EE18CEBA3300F9CA6A /* Images.xcassets in Resources */,
 				E30666E618CEBA3300F9CA6A /* Main_iPhone.storyboard in Resources */,
+				E306671C18CEC11900F9CA6A /* README.md in Resources */,
 				E30666DD18CEBA3300F9CA6A /* InfoPlist.strings in Resources */,
+				E306671818CEBB7100F9CA6A /* Safari~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +309,9 @@
 			files = (
 				E30666EC18CEBA3300F9CA6A /* ViewController.m in Sources */,
 				E30666E318CEBA3300F9CA6A /* AppDelegate.m in Sources */,
+				E306671518CEBB7100F9CA6A /* PBSafariActivity.m in Sources */,
 				E30666DF18CEBA3300F9CA6A /* main.m in Sources */,
+				E306671A18CEBB7100F9CA6A /* PBWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
